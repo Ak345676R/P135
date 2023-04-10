@@ -1,7 +1,7 @@
 <html>
 <head>
 
-	<title>AI Video Surveillance</title>
+	<title>Object Detection</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -15,27 +15,15 @@
 </head>
 
 <body background="background.jpg">
-<center>
-  <h1 class="btn btn-warning heading">AI OBJECT FINDER
-    <br><span>The input name which you will give should match the names present in cocossd model, then only it will detect.</span>
-  </h1>
-  <br><br>
-  <label>Object Name:</label>
-  <input type="text" class="form-control" id="object_name">
-  <br><br>
-  <button class="btn btn-success" onclick="start()" id="start">Start</button>
-  <br><br>
-  <h3 class="btn btn-warning" id="Object_Status"></h3>
-  <br><br>
-  <h3 class="btn btn-danger" id="status"></h3>
-</center>
+  <center>
+    <h1 class="btn btn-info heading">Object Detection</h1>
+    <h3 id="status" class="btn btn-danger">Status: Detecting Object</h3>
+    <h3 id="Number_of_objects" class="btn btn-warning">Baby Not found</h3>
 
- <div class="copyright_footer">
-  Developed by Akshat
- </div>
 
-<script src="main.js"></script>
+  </center>
+
+  <script src="main.js"></script>
 
 </body>
-
 </html>
